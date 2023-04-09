@@ -52,7 +52,7 @@ function Dashboard(props) {
     <BrowserRouter>
       <div className="dashboard row-2-1-5">
         <div className="sidebar">
-          <img className="logo" src={Logo} alt="Logo" />
+          { <img className="logo" src={Logo} alt="Logo" /> }
           <ul className="menu">
             <li className="menu__li menu__li--class">
               <NavLink
